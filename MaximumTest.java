@@ -52,12 +52,12 @@ public class MaximumTest<T extends Comparable<T>>
 		 printMax(x,y,z,w,max);
 		 return max;
 	 }
-	//to print the maximum value for 3 parameters
+	//to print the maximum value for 3 parameters to std out using genric method
 	public static <T> void printMax(T x,T y,T z,T max)
 	{
 		System.out.printf("Max of %s, %s and %s is %s\n",x,y,z,max);
 	}
-	//to print the maximum value for 4 parameters
+	//to print the maximum value for 4 parameters to std out using genric method
 	public static <T> void printMax(T x,T y,T z,T w,T max)
 	{
 		System.out.printf("Max of %s, %s, %s and %s is %s\n",x,y,z,w,max);
