@@ -4,17 +4,17 @@ package com.bridgelabz.generics;
 public class Test {
 
 	public static void main(String[] args) {
-		// testcase 1
-		int xInt = 100, yInt = 50, zInt = 25;
-		new MaximumTest(xInt, yInt, zInt).maximum();
-
-		// Testcase 2
-		int aInt = 5, bInt = 50, cInt = 7;
-		new MaximumTest(aInt, bInt, cInt).maximum();
-
-		// Testcase 3
-		int lInt = 80, mInt = 50, nInt = 100;
-		new MaximumTest(lInt, mInt, nInt).maximum();
+		//testcase 1
+		float xfloat=100.00f,yfloat=50.8f,zfloat=25.0f;
+		new MaximumTest(xfloat,yfloat,zfloat).maximum();
+		
+		//Testcase 2
+		float afloat=5.0f,bfloat=50.44f,cfloat=7.9f;
+		new MaximumTest(afloat,bfloat,cfloat).maximum();
+		
+		//Testcase 3
+		float lfloat=80.9f,mfloat=50.5f,nfloat=100.7f;
+		new MaximumTest(lfloat,mfloat,nfloat).maximum();
 	}
 
 }
